@@ -17,7 +17,7 @@ const Pokemon = () => {
       <span className='flex flex-row gap-3'>Teconologías:<SiReact/><SiJavascript/><SiRedux/><SiHtml5/><SiExpress/><SiMysql/><SiCss3/><SiNodedotjs/></span> 
       </h3>
       <div className='flex flex-row justify-center mb-[5%]'>
-      <a href="https://github.com/gxspxr/Pokemon-PI" className='p-[5%] bg-base-light rounded-md transition-all duration-500 ease-in-out hover:scale-105 hover:shadow-sm hover:shadow-secondary hover:bg-NameColor hover:rounded-lg'>Repositorio</a>
+      <a target="_blank" rel="noreferrer" href="https://github.com/gxspxr/Pokemon-PI" className='p-[5%] bg-base-light rounded-md transition-all duration-500 ease-in-out hover:scale-105 hover:shadow-sm hover:shadow-secondary hover:bg-NameColor hover:rounded-lg'>Repositorio</a>
       </div>
       </figure>
       </article>
