@@ -17,8 +17,8 @@ const CrmProject = () => {
       <span className='flex flex-row gap-3'>Teconologías:<SiReact/><SiJavascript/><SiRedux/><SiTailwindcss/><SiHtml5/></span> 
       </h3>
       <div className='flex flex-row gap-4 mb-[5%]'>
-      <a href="https://crm-henry-34b.vercel.app/" className='p-[5%] bg-base-light rounded-md transition-all duration-500 ease-in-out hover:scale-105 hover:shadow-sm hover:shadow-secondary hover:bg-NameColor hover:rounded-lg'>Deploy</a>
-      <a href="https://github.com/gxspxr/crm-front" className='p-[5%] bg-base-light rounded-md transition-all duration-500 ease-in-out hover:scale-105 hover:shadow-sm hover:shadow-secondary hover:bg-NameColor hover:rounded-lg'>Repositorio</a>
+      <a target="_blank" rel="noreferrer" href="https://crm-henry-34b.vercel.app/" className='p-[5%] bg-base-light rounded-md transition-all duration-500 ease-in-out hover:scale-105 hover:shadow-sm hover:shadow-secondary hover:bg-NameColor hover:rounded-lg'>Deploy</a>
+      <a target="_blank" rel="noreferrer" href="https://github.com/gxspxr/crm-front" className='p-[5%] bg-base-light rounded-md transition-all duration-500 ease-in-out hover:scale-105 hover:shadow-sm hover:shadow-secondary hover:bg-NameColor hover:rounded-lg'>Repositorio</a>
       </div>
       </figure>
       </article>
