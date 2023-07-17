@@ -1,6 +1,6 @@
 import React from 'react'
 import pokemon from "../../images/PokemonP.webp"
-import {SiRedux, SiTailwindcss, SiReact, SiTypescript, SiJavascript, SiCss3, SiNodedotjs, SiMysql, SiHtml5,SiExpress, SiSequelize, SiFigma, SiCplusplus } from "react-icons/si"
+import {SiRedux,SiReact, SiJavascript, SiCss3, SiNodedotjs, SiMysql, SiHtml5,SiExpress} from "react-icons/si"
 const Pokemon = () => {
   return (
     <article className="flex xl:flex-row xs:flex-col xs:items-center lg:flex-col md:flex-col md:items-center lg:m-auto gap-[9%]">
@@ -17,7 +17,7 @@ const Pokemon = () => {
       <span className='flex flex-row gap-3'>Teconologías:<SiReact/><SiJavascript/><SiRedux/><SiHtml5/><SiExpress/><SiMysql/><SiCss3/><SiNodedotjs/></span> 
       </h3>
       <div className='flex flex-row justify-center mb-[5%]'>
-      <a href="" className='p-[5%] bg-base-light rounded-md transition-all duration-500 ease-in-out hover:scale-105 hover:shadow-sm hover:shadow-secondary hover:bg-NameColor hover:rounded-lg'>Repositorio</a>
+      <a href="https://github.com/gxspxr/Pokemon-PI" className='p-[5%] bg-base-light rounded-md transition-all duration-500 ease-in-out hover:scale-105 hover:shadow-sm hover:shadow-secondary hover:bg-NameColor hover:rounded-lg'>Repositorio</a>
       </div>
       </figure>
       </article>

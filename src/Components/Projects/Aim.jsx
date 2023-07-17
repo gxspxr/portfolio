@@ -1,5 +1,6 @@
 import React from 'react'
 import aim from "../../images/Aimtra.svg"
+import {SiTailwindcss, SiReact, SiJavascript,SiHtml5 } from "react-icons/si"
 const Aim = () => {
   return (
     <article className="flex xl:flex-row lg:flex-col md:flex-col md:items-center xs:flex-col xs:items-center lg:m-auto gap-[9%]">
@@ -13,10 +14,12 @@ const Aim = () => {
       <h3 className='px-[9%]'>Proyecto creado con el fin de mejorar habilidades logicas de JavaScript y mejorar Tailwind.
       Cuenta con sonidos al acertar el click en el circulo y al fallar. Se puede cambiar los colores tanto del fondo como del circulo.
       Incluye contador de puntos de aciertos y fallos
+      {" "}<br/><br/>
+      <span className='flex flex-row gap-3'>Teconologías:<SiReact/><SiJavascript/><SiHtml5/><SiTailwindcss/></span> 
       </h3>
       <div className='flex flex-row gap-4 mb-[5%]'>
-      <a href="" className='p-[5%] bg-base-light rounded-md transition-all duration-500 ease-in-out hover:scale-105 hover:shadow-sm hover:shadow-secondary hover:bg-NameColor hover:rounded-lg'>Deploy</a>
-      <a href="" className='p-[5%] bg-base-light rounded-md transition-all duration-500 ease-in-out hover:scale-105 hover:shadow-sm hover:shadow-secondary hover:bg-NameColor hover:rounded-lg'>Repositorio</a>
+      <a href="aim-trainer-plum.vercel.app" className='p-[5%] bg-base-light rounded-md transition-all duration-500 ease-in-out hover:scale-105 hover:shadow-sm hover:shadow-secondary hover:bg-NameColor hover:rounded-lg'>Deploy</a>
+      <a href="https://github.com/gxspxr/Aim-Trainer" className='p-[5%] bg-base-light rounded-md transition-all duration-500 ease-in-out hover:scale-105 hover:shadow-sm hover:shadow-secondary hover:bg-NameColor hover:rounded-lg'>Repositorio</a>
       </div>
       </figure>
       </article>

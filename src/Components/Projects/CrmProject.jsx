@@ -1,6 +1,6 @@
 import React from 'react'
 import crm from "../../images/imagecrm2.svg"
-import {SiRedux, SiTailwindcss, SiReact, SiJavascript,SiHtml5,SiExpress, SiSequelize, SiFigma } from "react-icons/si"
+import {SiRedux, SiTailwindcss, SiReact, SiJavascript,SiHtml5} from "react-icons/si"
 const CrmProject = () => {
   return (
     <article className="flex xl:flex-row lg:flex-col md:flex-col md:items-center xs:flex-col xs:items-center lg:m-auto gap-[9%] ">
@@ -17,8 +17,8 @@ const CrmProject = () => {
       <span className='flex flex-row gap-3'>Teconologías:<SiReact/><SiJavascript/><SiRedux/><SiTailwindcss/><SiHtml5/></span> 
       </h3>
       <div className='flex flex-row gap-4 mb-[5%]'>
-      <a href="" className='p-[5%] bg-base-light rounded-md transition-all duration-500 ease-in-out hover:scale-105 hover:shadow-sm hover:shadow-secondary hover:bg-NameColor hover:rounded-lg'>Deploy</a>
-      <a href="" className='p-[5%] bg-base-light rounded-md transition-all duration-500 ease-in-out hover:scale-105 hover:shadow-sm hover:shadow-secondary hover:bg-NameColor hover:rounded-lg'>Repositorio</a>
+      <a href="https://crm-henry-34b.vercel.app/" className='p-[5%] bg-base-light rounded-md transition-all duration-500 ease-in-out hover:scale-105 hover:shadow-sm hover:shadow-secondary hover:bg-NameColor hover:rounded-lg'>Deploy</a>
+      <a href="https://github.com/gxspxr/crm-front" className='p-[5%] bg-base-light rounded-md transition-all duration-500 ease-in-out hover:scale-105 hover:shadow-sm hover:shadow-secondary hover:bg-NameColor hover:rounded-lg'>Repositorio</a>
       </div>
       </figure>
       </article>

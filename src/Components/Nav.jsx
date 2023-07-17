@@ -1,31 +1,10 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-scroll';
 
 const Nav = () => {
   const [showMenu, setShowMenu] = useState(false); // Estado del menú hamburguesa
   const [isAnimating, setIsAnimating] = useState(false); // Estado para la animación
-  const [headerClass, setHeaderClass] = useState('bg-base'); // Clase inicial del header
 
-
-  // useEffect(() => {
-  //   const handleScroll = () => {
-  //     // Verificar la posición actual del scroll
-  //     const scrollPosition = window.scrollY;
-      
-  //     // Cambiar la clase del header en función de la posición del scroll
-  //     if (scrollPosition > 0) {
-  //       setHeaderClass('bg-transparent backdrop-filter backdrop-blur-sm transition-all duration-500 transform ease-out');
-  //     } else {
-  //       setHeaderClass('bg-base transition-all duration-500 transform ease-out');
-  //     }
-  //   };
-  //   // Agregar el evento de escucha para el scroll
-  //   window.addEventListener('scroll', handleScroll);
-  //   // Eliminar el evento de escucha al desmontar el componente
-  //   return () => {
-  //     window.removeEventListener('scroll', handleScroll);
-  //   };
-  // }, []);
 
   // Función para alternar el estado del menú
   const toggleMenu = () => {
@@ -39,7 +18,7 @@ const Nav = () => {
   };
 
   return (
-    <header className={`flex z-20 justify-between items-center h-14 fixed top-0 left-0 right-0 ${headerClass}`}>
+    <header className='flex z-20 justify-between items-center h-14 fixed top-0 left-0 right-0 bg-base'>
       <Link to="home" smooth={true} duration={900}>
         <h1 className="text-white w-1/4 mx-4 cursor-pointer">
           <span className="text-secondary">&lt;</span>Gaspar<span className="text-secondary">/</span>

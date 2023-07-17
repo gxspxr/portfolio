@@ -2,7 +2,6 @@ import React from 'react';
 import Principal from '../Components/Principal';
 import About from '../Components/About';
 import Experience from '../Components/Experience';
-import Technologies from '../Components/Technologies';
 import Nav from '../Components/Nav';
 import Proyects from '../Components/Proyects';
 import Conecta from '../Components/Conecta';
