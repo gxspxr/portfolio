@@ -23,7 +23,7 @@ const Principal = () => {
         <h2 className=' xl:text-7xl lg:text-6xl md:text-6xl xs:text-4xl text-white xl:whitespace-nowrap'>
           Mi nombre es <span className='text-NameColor xl:text-8xl lg:text-7xl md:text-7xl xs:text-5xl'>Gaspar</span>
         </h2></div>
-        <h2 className='flex xl:text-3xl lg:text-3xl md:text-3xl xs:text-xl text-white flex-row gap-3'>
+        <h2 className='flex xl:text-3xl lg:text-3xl md:text-3xl xs:text-lg text-white flex-row gap-3'>
           <span className='select-none text-white'></span>{"Y"}
           <span className='text-NameColor italic'>
             <TypeAnimation
@@ -42,14 +42,13 @@ const Principal = () => {
           </span>
           </h2>
           </div>
-          <article className='flex flex-row gap-[2%] mb-[15%] text-white mt-[5%]' data-aos="fade-up">
-            <a href="./CvGaspar.pdf" target="_blank" rel="noreferrer" className='text-sm bg-base-light hover:bg-NameColor transition-all duration-700 hover:scale-105 ease-in-out hover:rounded-lg flex justify-center items-center h-[2em] shadow-sm shadow-black w-[15%] rounded-sm  '>
+          <article className='flex flex-row gap-5 mb-[15%] text-white mt-[5%]' data-aos="fade-up">
+            <a href="./CvGaspar.pdf" target="_blank" rel="noreferrer" className='text-sm bg-base-light hover:bg-NameColor transition-all duration-700 hover:scale-105 ease-in-out hover:rounded-lg flex justify-center items-center h-[2em] shadow-sm shadow-black xl:w-[15%] md:w-[15%] xs:w-[30%] lg:w-[15%] rounded-sm  '>
             Ver CV
             </a>
           <a href="https://github.com/gxspxr" target="_blank" rel="noreferrer" className='text-3xl transition-all duration-300 hover:scale-110  ease-in-out hover:text-violet-600'><SiGithub/></a>
           <a href="https://www.linkedin.com/in/gaspar-serna-8a0945215/" rel="noreferrer" target="_blank" className='text-3xl transition-all duration-300  hover:scale-110  ease-in-out hover:text-sky-700'><SiLinkedin/></a>
           </article>
-        
         <Link to='about' smooth={true} duration={900}>
           <button className=' text-secondary text-4xl animate-bounce '>
             <AiOutlineArrowDown />
